@@ -1,0 +1,7 @@
+#!/bin/sh
+if [ ! -e "$HOME/.jdownloader/JDownloader.jar" ]; then
+    mkdir -p "$HOME/.jdownloader"
+    cp -f "/opt/jdownloader/JDownloader.jar" "$HOME/.jdownloader/JDownloader.jar"
+fi
+
+java -jar "$HOME/.jdownloader/JDownloader.jar"
