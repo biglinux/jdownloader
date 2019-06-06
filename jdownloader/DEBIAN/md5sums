@@ -1,6 +1,6 @@
-06a8a28d963ad86cd440ecf8cc6eb4d5  DEBIAN/control
+75f3809de4a518232f20f9237a6d121d  DEBIAN/control
 d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
-b498a77fc92ab11dc501820f63a80512  usr/bin/jdownloader
-a1adb2053591e2eb169bd95904b49b6f  usr/share/applications/JDownloader 2.desktop
 117be9bcdad6d3666095a8ca0275c864  opt/jdownloader/JDownloader.jar
 c7f3e517636414608fe68062894caa6e  opt/jdownloader/JDownloader2.png
+b498a77fc92ab11dc501820f63a80512  usr/bin/jdownloader
+a1adb2053591e2eb169bd95904b49b6f  usr/share/applications/JDownloader 2.desktop
