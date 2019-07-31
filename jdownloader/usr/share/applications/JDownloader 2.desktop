@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Name=JDownloader 2
-Name[pt_BR]=Gerenciador de Downloads (JDownloader)
+Name[pt_BR]=Gerenciador JDownloader
 Exec=jdownloader
 Icon=/opt/jdownloader/JDownloader2.png
 Categories=Network;Application;
