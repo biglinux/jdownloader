@@ -1,5 +1,5 @@
 Package: jdownloader
-Version: 2.2.1-1big2
+Version: 2.2.1-1big3
 Depends: openjdk-8-jre | openjdk-9-jre | openjdk-7-jre | openjdk-11-jre | openjdk-12-jre | openjdk-13-jre | openjdk-14-jre |  oracle-java6 | oracle-java7 | oracle-java8 | oracle-java9 | oracle-java10 | oracle-java11 | oracle-java12 | oracle-java13 | oracle-java14 | oracle-java8-installer | oracle-java11-installer | oracle-java9-installer
 Architecture: all
 Maintainer: Bruno Goncalves <www.biglinux.com.brl>
