@@ -4,4 +4,10 @@ if [ ! -e "$HOME/.jdownloader/JDownloader.jar" ]; then
     cp -f "/opt/jdownloader/JDownloader.jar" "$HOME/.jdownloader/JDownloader.jar"
 fi
 
-java -jar "$HOME/.jdownloader/JDownloader.jar"
+
+if [ "$(java -version 2>&1 | grep -i 'openjdk version "1.8')" != "" ]; then
+
+    java -XX:+UseConcMarkSweepGC -Xmx2g -Xms32m -jar "$HOME/.jdownloader/JDownloader.jar"
+else
+    java -jar "$HOME/.jdownloader/JDownloader.jar"
+fi
